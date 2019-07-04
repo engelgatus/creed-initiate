@@ -1,0 +1,228 @@
+@font-face {
+	font-family: "One Signature";
+	src: url(../fonts/OneSignature.ttf);
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Orbitron', sans-serif;
+	scroll-behavior: smooth;
+}
+
+
+/*Landing page*/
+
+#main {
+	background-image: url(../images/landingbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+}
+#main-text {
+	margin: 20px 10px;
+}
+
+#h1-landing,
+#h2-landing {
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 2px;	
+	color: rgba(242,248,255,1);
+	background-color: rgba(198,198,198,0.35);
+	width: 100%;
+	padding: 10px 30px 10px 30px;
+}
+
+#h1-landing {
+	font-size: 60px;
+}
+
+#h2-landing {
+	font-size: 110px;
+}
+
+#png-1 {
+	width: 650px;
+	height: 650px;
+	position: fixed;
+	bottom: 0;
+	left: 50px;
+	z-index: 2;
+}
+
+#landing-button {
+	margin-right: 30px;
+	margin-bottom: 130px;
+}
+
+#landing-footer {
+	vertical-align: center;
+}
+
+#landing-icon {
+	padding: 10px;
+}
+
+/*End landing page*/
+
+/*Universal nav*/
+
+#navbar {
+	background-color: rgba(198,198,198,0.35);
+}
+
+#nav-phrase {
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+#nav-burger {
+	height: 30px;
+	width: 30px;
+}
+
+/*End universal nav*/
+
+
+
+
+
+/*Home Page*/
+
+.page {
+	background-color: rgba(17,17,17,1);
+}
+.home-car-img {
+	background-attachment: fixed;
+}
+
+.home-car-arrow {
+	opacity: 0.5;
+}
+
+#home-car-h {
+	font-size: 60px;
+	background-color: rgba(117,117,117,0.55);
+	/*width: 100%;*/
+	border-radius: 10px;
+	letter-spacing: 5px;
+}
+
+.carousel-caption {
+	margin-bottom: 230px;
+}
+
+.home-learn-more {
+	text-transform: uppercase;
+	display: block;
+	text-decoration: none;
+}
+
+
+#home-car-p {
+	font-size: 20px;
+	background-color: rgba(117,117,117,0.55);
+	width: 100%;
+	border-radius: 10px;
+}
+
+#story-img {
+	position: relative;
+	margin: 30px auto;
+	border-radius: 10px;
+}
+
+#story-text {
+	position: absolute;
+	top: 200px;
+	width: 700px;
+	border: 1px rgba(198,198,198,0.1) solid;
+	border-radius: 20px;
+	margin-left: 30px;
+	background-color: rgba(198,198,198,0.1);
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#story-h {
+	font-size: 40px;
+}
+
+#story-read {
+	color: #333;
+}
+
+.home-char-img {
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+#footer-text {
+	color: #F2F2F2;
+}
+/*End of Home Page*/
+
+
+
+
+/*About Page*/
+
+#jumbotron-about {
+	background-color: #333;
+	height: 90vh;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#landing-about {
+	color: #F2F2F2;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: 'One Signature', sans-serif;
+}
+
+#mission {
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+}
+
+#vision {
+	height: 100%;
+	background-color: #fff;
+	color: #333;
+}
+
+.about-tags {
+	font-weight: bold;
+
+}
+
+/*End about page*/
+
+#username,
+#email,
+#contact,
+#message {
+	background-color: rgba(198,198,198,5);
+}
+
+
+/*Contact Page*/
+
+#g-map {
+	width: 100%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 20px;
+}
+
+/*End of Contact Page*/
