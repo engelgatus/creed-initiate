@@ -38,8 +38,8 @@
 
 	<div class="container-fluid px-0 page">
 
-		<nav id="navbar" class="navbar navbar-expand-lg navbar-dark sticky-top">
-			<a href="" class="navbar-brand">
+		<nav id="navbar" class="p-0 navbar navbar-expand-lg navbar-dark sticky-top">
+			<a href="" id="navbar-brand" class="navbar-brand">
 				<span id="nav-phrase">Your everyday guide in starting Assassin's Creed</span>
 			</a>
 			<button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbar-nav">
@@ -50,27 +50,50 @@
 			<div id="navbar-nav" class="collapse navbar-collapse">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a href="home.html" class="nav-link">
+						<a id="lead-home" href="home.html" class="nav-link">
 						Home
 						</a>				
 					</li>
-					<li class="nav-item ">
+					<li class="nav-item">
 						<a href="#" class="nav-link">
-						Contact
+						Games
 						</a>				
 					</li>
-					<li class="nav-item ">
-						<a href="#" class="nav-link">
+					<li class="nav-item">
+						<!-- <a href="#" class="nav-link">
+						Characters
+						</a>	 -->
+												
+						<div class="dropdown">
+  							<button class="btn dropdown-toggle text-white-50" type="button" id="nav-char-drop" data-toggle="dropdown">
+   							 Characters
+ 							</button>
+  							<div id="nav-drop-list" class="dropdown-menu">
+    							<a class="dropdown-item" href="altair.html">Altaïr Ibn-La'Ahad</a>
+    							<a class="dropdown-item" href="ezio.html">Ezio Auditore da Firenze</a>
+    							<a class="dropdown-item" href="connor.html">Ratonhnhaké:ton</a>
+    							<a class="dropdown-item" href="evie.html">Dame Evie Frye</a>
+    							<a class="dropdown-item" href="jacob.html">Sir Jacob Frye</a>
+  							</div>
+						</div>
+						
+				
+
+					</li>
+					<li class="nav-item">
+						<a target="_blank" href="https://www.ubisoft.com/en-us" class="nav-link">
 						Store
 						</a>				
 					</li>
+
 					<li class="nav-item">
 						<a href="contact.html" class="nav-link">
 						Contact
 						</a>				
 					</li>
+					
 					<li class="nav-item active">
-						<a href="#" class="nav-link">
+						<a href="about.html" class="nav-link">
 						About
 						</a>				
 					</li>
@@ -115,7 +138,24 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			
 		</section> <!-- end mission section -->
+
+			<footer id="about-footer" class="text-center footer p-10">
+				<p id="footer-text" class="page p-20 mb-0">Engel Gatus | Zuitt Coding Bootcamp</p>
+
+				<div class="text-center page">
+							
+					<a target="_blank" href="https://www.facebook.com/engelgatus"><i id="landing-icon" class="fab fa-facebook fa-3x animated fadeInRight faster"></i></a>
+
+					<a target="_blank" href="https://www.linkedin.com"><i id="landing-icon" class="fab fa-linkedin fa-3x animated fadeInRight fast"></i></a>
+
+					<a target="_blank" href="https://www.twitter.com"><i id="landing-icon" class="fab fa-twitter fa-3x animated fadeInRight 900ms"></i></a>
+							
+				</div>
+
+			</footer>
+
 	</div>
+
 
 
 
